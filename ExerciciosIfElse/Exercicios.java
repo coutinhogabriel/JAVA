@@ -1,4 +1,4 @@
-package EcerciciosIfElse;
+package ExerciciosIfElse;
 
 import java.util.Scanner;
 
@@ -51,7 +51,7 @@ public class Exercicios {
         } else {
             valor = valor * 0.30;
         }
-        System.out.println("Total a pagar é: " + valor);
+        System.out.println("Total a pagar é: R$  " + valor);
 
     }
 

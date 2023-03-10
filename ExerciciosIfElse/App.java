@@ -1,8 +1,8 @@
-package EcerciciosIfElse;
+package ExerciciosIfElse;
 
 public class App {
     public static void main(String[] args) {
         Exercicios obj = new Exercicios();
-        obj.exercicio7();
+        obj.exercicio4();
     }
 }

@@ -1,7 +1,10 @@
 package ExercicioOperacoes;
 
+import java.util.Scanner;
+
 public class NotaAlunos {
-    public void NotaAlunos() {
+    Scanner sc = new Scanner(System.in);
+    public void Nota() {
         boolean mediaOk, frequenciaOk;
         System.out.println("Informe a primeira nota do aluno:");
         double nota1 = sc.nextDouble();
@@ -21,3 +24,4 @@ public class NotaAlunos {
             System.out.println("O aluno não passou de ano.");
         }
     }
+}
