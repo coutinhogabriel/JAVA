@@ -33,7 +33,7 @@ public class SwitchCase {
     public void mês (){
         System.out.println("Digite o número referente ao mês");
         int mes = sc.nextInt();
-        String nomeMes
+        String nomeMes;
         switch (mes){
             case 1: nomeMes = "Janeiro";
             break;
@@ -62,7 +62,7 @@ public class SwitchCase {
             default: nomeMes = "Valor inválido";
             break;
         }
-        System.out.println("O mês selecionado é :" + no);
+        System.out.println("O mês selecionado é :" + nomeMes);
 
 
     }
