@@ -58,7 +58,7 @@ public class Vetores {
         System.out.println("O 0º elemento do vetor - índice [0] é " + valoresReais[0]);
     }
     public void exemplo4() {
-        // criar um programa que leai 4 notas, mostre as notas e a média na tela
+        // criar um programa que leia 4 notas, mostre as notas e a média na tela
         double valoresNotas[] = new double[4];
         System.out.println("Digite o valor das suas quatro notas");
         valoresNotas[0] = sc.nextDouble();
