@@ -50,6 +50,7 @@ public class AtividadeGrupo {
 
 
         double imc = peso / (altura * altura);
+        System.out.println("IMC do aluno é: " + imc);
         if (imc < 20){
             dificil = 3;
             System.out.println("O Aluno está abaixo do peso");
@@ -65,22 +66,26 @@ public class AtividadeGrupo {
         else {System.out.println(" Valor inválido");}
         
         //Faixa etária do aluno
-        int idadefe;
-        if (idadefe > 16 && idadefe <=25){
-            System.out.println("");
+        int idadefe =0;
+        if (idade> 16 && idade<=25){
+            System.out.println("Faixa de idade I: entre 16 e 25 anos");
         }
-        else if (idadefe > 25 && idadefe <= 35){
-            System.out.println("");
+        else if (idade> 25 && idade<= 35){
+            System.out.println("Faixa de idade II: entre 25 e 35 anos");
         }
-        else if (idadefe > 36 && idadefe <= 45){
-            System.out.println();
+        else if (idade> 36 && idade<= 45){
+            System.out.println("Faixa de idade III: entre 36 e 45 anos");
         }
-        else if (idadefe > 46 && <=55){
-            System.out.println();
+        else if (idade> 46 && idade <=55){
+            System.out.println("Faixa de idade IV: entre 46 e 55 anos");
         }
-        else if (idadefe > 56 && <==65){
-            System.out.println();
+        else if (idade> 56 && idade <=65){
+            System.out.println("Faixa de idade V: entre 56 e 65 anos");
         }
+        else if (idade > 66){
+            System.out.println("Faixa de idade VI: mais de 66 anos");
+        }
+        else {System.out.println("Valor inválido");}
 
     }
 }
